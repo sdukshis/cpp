@@ -11,7 +11,7 @@ struct Complex {
 };
 
 double modulo(Complex *z) {
-    return sqrt(z->re*z->re + z->im*z->im);
+    return sqrt(z->re * z->re + z->im * z->im);
 }
 
 int main() {

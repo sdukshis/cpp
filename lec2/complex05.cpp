@@ -21,6 +21,7 @@ public:
 
 int main() {
     Complex z(1.0, 0.5);
+    z.set(1.0, 0.5);
     double mod = z.modulo();
     printf("mod(z) = %g", mod);
 
