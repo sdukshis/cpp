@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <math.h>
 
-struct Complex {
+class Complex {
 private:
     double mod;
     double arg;
